@@ -3,3 +3,4 @@ POSTGRES_PORT=5432
 POSTGRES_DB=codabene
 POSTGRES_USER=codabene
 POSTGRES_PASSWORD=codabene
+DATABASE_URL=postgres://codabene:codabene@postgres:5432/codabene
