@@ -73,10 +73,8 @@ THIRD_PARTY_APPS = [
     "corsheaders",
 ]
 
-LOCAL_APPS = [
-    "core.users.apps.UsersConfig",
-    # Your stuff: custom apps go here
-]
+LOCAL_APPS = ["core.users.apps.UsersConfig", "stock.apps.StockConfig"]
+
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
