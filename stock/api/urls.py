@@ -9,5 +9,8 @@ urlpatterns = [
         "stock-readings/",
         views.CreateStockReadingView.as_view(),
         name="create_stock_reading",
-    )
+    ),
+    path(
+        "synchronize/", views.SynchronizeStockReadingView.as_view(), name="synchronize"
+    ),
 ]
